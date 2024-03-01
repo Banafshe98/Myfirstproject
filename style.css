@@ -48,7 +48,7 @@ ul li:hover{
     display: flex;
     width: 300px;
     height:42px ;
-    border: solid 1px ;
+    border: none;
     border-radius: 40px;
     width: 20%;
     margin-left: 1%;
@@ -56,12 +56,18 @@ ul li:hover{
 }
 #searchbar{
     width: 100%;
-    border-radius: 40px;
+    border-radius: 40px 0px 0px 40px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
 
 }
 #searchbutton{
     width:100px;
-    border-radius: 40px;
+    border-radius: 0px 40px 40px 0px;
+    border: none;
+    background-color:rgb(230, 134, 185);
+    cursor: pointer;
 }
 #banner {
    display: block;
@@ -111,6 +117,7 @@ article{
 width: 200px;
 height: 200px;
 transition: transform 0.2s ease-in-out;
+cursor: url(cursur/diamond-ring.png,pointer);
 }
 #img-gallery :hover {
     transform: scale(1.4);
@@ -155,5 +162,6 @@ flex-direction: row;
 align-items: center;
 width:100%;
 gap: 35px;
+cursor: pointer;
 }
 
